@@ -1,12 +1,10 @@
 import React from 'react';
-import BackgroundImage from './astro.jpg';
 
 const AppWrapper = ({ children }) => {
   const style = {
-    backgroundImage: `url(${BackgroundImage})`,
+    backgroundImage: `url(${process.env.PUBLIC_URL +"/assets/brand/images/astro.jpg"})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '100vh',
   };
 
   return (

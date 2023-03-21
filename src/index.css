@@ -3,7 +3,6 @@
 	padding: 0;
 }
 body {
-	background-image: url('./astro.jpg');
 	background-position: center;
 
   }
@@ -25,7 +24,6 @@ hr {
 }
 
 .footer {
-	background-image: url('./astro.jpg');
 	background-position: center;
 }
 

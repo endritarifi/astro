@@ -20,6 +20,9 @@ build/
 # Package files
 *.jar
 
+# Env file
+.env
+
 # Maven
 target/
 dist/

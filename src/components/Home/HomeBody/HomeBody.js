@@ -5,7 +5,6 @@ function Main() {
       <div
         className="container-fluid"
         style={{
-          backgroundImage: 'url("")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

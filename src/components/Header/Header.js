@@ -11,8 +11,8 @@ const Header = ({ style }) => {
     <header style={style}>
       <nav className="navbar navbar-expand-md navbar-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
-            <img src="./astro.jpg" alt="logo" className="logo" />
+          <a className="navbar-brand" href="/">
+            <img src={process.env.PUBLIC_URL} alt="logo" className="logo" />
           </a>
           <button
             className="navbar-toggler"
