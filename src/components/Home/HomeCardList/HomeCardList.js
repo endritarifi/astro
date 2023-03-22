@@ -1,8 +1,9 @@
 import React from 'react';
 import Card from '../../../ui-components/Cards/Card';
+import CardWithTitle from '../../../ui-components/Cards/CardWithTitle';
 
 function HomeCardList() {
-  const cards = [
+  const homeCards = [
     {
       imgSrc:
         "https://cff2.earth.com/uploads/2018/11/16031958/what-is-astronomy-and-geophysics.jpg",
@@ -25,8 +26,11 @@ function HomeCardList() {
 
     return (
       <div className="row" style={{ "--bs-gutter-x": "0rem" }}>
-      {cards.map((card, index) => (
+      {homeCards.map((card, index) => (
           <Card {...card} key={index}/>
+      ))}
+      {homeCards.map((card, index) => (
+          <CardWithTitle {...card} key={index}/>
       ))}
       </div>
       

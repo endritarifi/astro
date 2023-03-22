@@ -12,6 +12,9 @@ const App = () => {
       <Header />
       <Main />
       <HomeCardList/>
+      <HomeCardList/>
+      <HomeCardList/>
+      <HomeCardList/>
       <Footer/>
     </AppWrapper>
   );
