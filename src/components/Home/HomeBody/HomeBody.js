@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Main() {
+function HomeBody () {
     return (
       <div
         className="container-fluid"
@@ -22,4 +22,4 @@ function Main() {
   }
   
 
-export default Main;
+export default HomeBody;
