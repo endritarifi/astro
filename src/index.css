@@ -17,6 +17,12 @@ header li {
 	font-weight: 600;
   }
 
+.my-link:hover {
+	transform: scale(1.35);
+	transition: transform 0.3s ease;
+  }
+  
+
 .footer {
 	background-position: center;
 }

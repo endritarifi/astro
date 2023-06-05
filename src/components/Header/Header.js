@@ -26,22 +26,22 @@ const Header = ({ style }) => {
           <div className="collapse navbar-collapse" ref={navbarRef}>
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link text-white" href="!#">
+                <a className="nav-link text-white my-link" href="!#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="!#">
+                <a className="nav-link text-white my-link" href="!#">
                   News
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="!#">
+                <a className="nav-link text-white my-link" href="!#">
                   About Us
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-white" href="!#">
+                <a className="nav-link text-white my-link" href="!#">
                   Contact
                 </a>
               </li>

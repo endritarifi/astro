@@ -1,5 +1,6 @@
  .Home-Slider{
     margin-bottom: 100px;
+    
  }
 
  .Home-Slider:hover {
@@ -18,13 +19,17 @@
   }
   
   .Home-SliderImage {
+    border-radius: 20px;
     width: 700px;
     height: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: center;
     
+  }
+  img.Home-SliderImage {
+    outline: none;
+    border: none;
   }
   
   .slick-slider {
