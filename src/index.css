@@ -4,7 +4,7 @@
 }
 body {
 	background-position: center;
-
+	overflow-x: hidden;
   }
 
 header {
@@ -13,15 +13,9 @@ header {
 
 header li {
 	font-size: 20px;
+	font-family: 'Kanit', sans-serif;
+	font-weight: 600;
   }
-
-hr {
-    margin: 1rem 0 !important;
-    color: white!important;
-    border: 0!important;
-    border-top: 1px solid!important;
-    opacity: 1!important;
-}
 
 .footer {
 	background-position: center;
@@ -49,11 +43,11 @@ hr {
   }
 
 
-
 .card {
 	max-width: 400px;
 	width: 100%;
 	margin: auto ;
+
 	margin-bottom: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -62,25 +56,39 @@ hr {
 	max-width: 100%;
 	height: auto;
   }
-  
-.card-body {
-	padding: 1rem;
-  }
-  
-.card-title {
-	font-size: 1.25rem;
-	font-weight: bold;
-	margin-bottom: 0.5rem;
+
+  .card-title {
 	color: white;
   }
   
-.card-text {
+  .card-text {
 	color: white;
-	font-size: 1rem;
-	margin-bottom: 0;
   }
   
 
+.homebody {
+	font-family: 'Crimson Text', serif;
 
+  }
 
+.first-line {
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
 
+.second-line {
+	padding-bottom: 50px;
+}
+
+.third-line {
+	padding-bottom: 200px;
+}
+
+.footer {
+	font-family: 'Kanit', sans-serif;
+  }
+  
+.footer a {
+	text-decoration: none;
+  }
+  

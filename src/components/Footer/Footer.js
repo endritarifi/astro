@@ -4,7 +4,7 @@ function Footer() {
   return (
     
 <footer className="text-center text-lg-start text-muted footer">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <section className="d-flex justify-content-center justify-content-lg-between p-4 ">
           <div className="me-5 d-none d-lg-block">
             <span className='text-white'>Get connected with us on social networks:</span>
           </div>

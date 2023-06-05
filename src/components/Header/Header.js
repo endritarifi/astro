@@ -49,7 +49,6 @@ const Header = ({ style }) => {
           </div>
         </div>
       </nav>
-      <hr className="my-hr" />
     </header>
   );
 };
